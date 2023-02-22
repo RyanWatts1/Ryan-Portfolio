@@ -9,6 +9,7 @@ import linkedin from "./linkedin.svg";
 import RyanStanding from "./RyanStanding.png";
 import DeskTop from "./DeskTop.png";
 import WebSite from "./WebSite.png";
+import Earth from "./Earth.png";
 
 export {
   card,
@@ -22,4 +23,5 @@ export {
   RyanStanding,
   DeskTop,
   WebSite,
+  Earth,
 };

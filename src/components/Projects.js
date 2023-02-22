@@ -1,6 +1,7 @@
 import { feedback } from "../constants";
 import styles from "../style";
 import ProjectCard from "./ProjectCard";
+import Earth from "../assets/Earth.png";
 
 const Projects = () => (
   <section
@@ -20,7 +21,9 @@ const Projects = () => (
         </p>
       </div>
     </div>
-
+    <div>
+    <img src={Earth} alt="earth" className="w-[10%] h-[100%] relative z-[5]" />
+    </div>
     <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
       {feedback.map((card) => (
         <ProjectCard key={card.id} {...card} />
